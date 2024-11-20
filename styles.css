@@ -542,7 +542,11 @@ body, html {
     opacity: 0.7;
     margin: 0 2rem;
 }
-
+@media (max-width: 576px) {
+    .carousel-image {
+        height: 50vh; /* Adjust to fit mobile screen */
+    }
+}
 @media (max-width: 768px) {
     .carousel-control-prev,
     .carousel-control-next {
