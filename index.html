@@ -1,10 +1,9 @@
-{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{% static 'jhuapp/styles.css' %}">
+    <link rel="stylesheet" href="styles.css">
     <style>
         .content-wrapper h1 {
             color: var(--orange);
@@ -79,7 +78,7 @@
                             <div class="nested-dropdown">
                                 <a href="#" class="nav-link">Domestic Cleaning</a>
                                 <div class="nested-dropdown-content">
-                                    <a href="{% url 'airbnb' %}" class="nav-link">Airbnb</a>
+                                    <a href="airbnb.html" class="nav-link">Airbnb</a>
                                     <a href="deepclean.html" class="nav-link">Deep Cleaning</a>
                                     <a href="midstay.html" class="nav-link">Midstay Shortlet Cleaning</a>
                                     <a href="linenhire.html"class="nav-link">Linen Hire</a>
@@ -89,7 +88,7 @@
                         </div>
                     </li>
                     <li class="nav-item mt-2">
-                        <a class=" btn-secondary rounded-pill px-2 py-2" href="{% url 'register' %}">Signin/Login</a>
+                        <a class=" btn-secondary rounded-pill px-2 py-2" href="register.html">Signin/Login</a>
                     </li>
                 </ul>
             </div>
